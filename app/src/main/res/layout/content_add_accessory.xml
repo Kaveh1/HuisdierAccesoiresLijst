@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.kaveh.huisdieraccesoireslijst.AddAccessoryActivity"
+    tools:showIn="@layout/activity_add_accessory">
+
+    <TextView
+        android:id="@+id/textView_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/info_accessory"
+        android:layout_marginTop="150dp"/>
+
+    <EditText
+        android:id="@+id/add_info_accessory_edittext"
+        android:layout_alignParentStart="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_info"
+        android:hint="@string/add_info_accessory_edittext"
+        android:enabled="true"/>
+
+    <TextView
+        android:id="@+id/textView_web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/webpage_accessory"
+        android:layout_marginTop="250dp"/>
+
+    <EditText
+        android:id="@+id/input_web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/textView_web"
+        android:text="https://"
+        android:inputType="textWebEmailAddress"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HuisdierAccesoiresLijst</string>
+    <string name="action_settings">Settings</string>
+    <string name="empty_accessorie_list">Er zijn geen accessoires</string>
+    <string name="title_activity_add_accessory">Voeg accessoires toe</string>
+    <string name="kind_pet">Soort huisdier</string>
+    <string name="info_accessory">Accessoire info</string>
+    <string name="webpage_accessory">Accessoire website</string>
+    <string name="add_info_accessory_edittext">Voorbeeld: Hondenhok kopen</string>
+</resources>
